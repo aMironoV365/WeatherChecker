@@ -1,8 +1,8 @@
 import os
 import openpyxl
 from sqlalchemy import select
-from .models import WeatherData, async_session
-from .config import Config
+from models import WeatherData, async_session
+from config import Config
 import aiofiles
 
 

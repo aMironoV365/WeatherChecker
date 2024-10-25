@@ -1,5 +1,5 @@
-from .api import weather_request
-from .models import WeatherData, async_session
+from api import weather_request
+from models import WeatherData, async_session
 from datetime import datetime
 
 

@@ -1,8 +1,8 @@
 import asyncio
 from celery import Celery
-from .models import create_tables
-from .config import Config
-from .fetch_weather import fetch_weather_data_async
+from models import create_tables
+from config import Config
+from fetch_weather import fetch_weather_data_async
 
 app = Celery('celery_tasks', broker=Config.CELERY_BROKER_URL, backend=Config.CELERY_RESULT_BACKEND)
 
