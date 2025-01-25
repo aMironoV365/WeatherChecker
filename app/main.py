@@ -1,5 +1,5 @@
 import asyncio
-from app.export_excel import export_to_excel
+from export_excel import export_to_excel
 
 if __name__ == "__main__":
     """
